@@ -10,16 +10,21 @@
 <body onload="trilhaSonora()">
     <div class="container">
         <h1>Champions <span class="corRoxa">JS</span></h1>
+
+        <section class="funcoes">
+            <p class="adc">ADC</p>
+            <p class="mago">Mago</p>
+        </section>
         
         <section id="frame">
             <h2>?</h2>
         </section>
-            
+
         <section class="nomes">
-            <p onclick="exibirAshe()">Ashe</p>
-            <p onclick="exibirJinx()">Jinx</p>
-            <p onclick="exibirAhri()">Ahri</p>
-            <p onclick="exibirLux()">Lux</p>
+            <p class="adc" onclick="exibirAshe(), playUIClick()">Ashe</p>
+            <p class="adc" onclick="exibirJinx(), playUIClick()">Jinx</p>
+            <p class="mago" onclick="exibirAhri(), playUIClick()">Ahri</p>
+            <p class="mago" onclick="exibirLux(), playUIClick()">Lux</p>
         </section>
 
         <p>Developed by 

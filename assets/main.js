@@ -23,8 +23,8 @@ function exibirLux(){
     eFrame.innerHTML = imgLux;
 }
 
-var audio = new Audio('./assets/soundtrack.mp3');
+var audio = new Audio('./assets/ui-click.mp3');
 
-function trilhaSonora(){
+function playUIClick(){
     audio.play();
 }
