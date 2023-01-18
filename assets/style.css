@@ -2,7 +2,10 @@
 
 :root {
     font-size: 62.5%;
+    --red: #d41313;
     --blue: #4eaddd;
+    --green: #07b745;
+    --yellow: #dccb0f;
     --purple: #cf34b2;
     --bg-color: #080808;
 }
@@ -14,7 +17,7 @@
 }
 
 body {
-    color: var(--blue);
+    color: white;
     font: 1.6rem 'Poppins';
     background-color: var(--bg-color);
 }
@@ -29,8 +32,8 @@ body {
     gap: 7rem;   
 }
 
-.corRoxa {
-    color: var(--purple);
+.corAmarela {
+    color: var(--yellow);
 }
 
 .container h1 {
@@ -39,7 +42,7 @@ body {
 }
 
 a {
-    color: var(--blue);
+    color: var(--yellow);
     text-decoration: none;
 }
 
@@ -47,7 +50,7 @@ a {
     display: flex;
     align-items: center;
     flex-direction: center;
-    gap: 5rem;
+    gap: 2rem;
     color: var(--purple);
 }
 
@@ -86,22 +89,30 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .funcoes p {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 7rem;
     color: white;
+    font-size: 1.2rem;
     border-radius: 2rem;
+    text-transform: uppercase;
 }
 
 .adc {
     background-color: var(--purple);
+    width: 4rem;
 }
 
 .mago {
     background-color: var(--blue);
+    width: 6rem;
+}
+
+.assassino {
+    background-color: var(--red);
+    width: 8rem;
 }
