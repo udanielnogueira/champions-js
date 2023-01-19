@@ -2,7 +2,7 @@ var imgAshe = '<img class="imgCampeao" src="./assets/ashe.png">';
 var imgJinx = '<img class="imgCampeao" src="./assets/jinx.png">';
 var imgAhri = '<img class="imgCampeao" src="./assets/ahri.png">';
 var imgLux = '<img class="imgCampeao" src="./assets/lux.png">';
-var imgZed = '<img class="imgCampeao" src="./assets/zed.png">';
+var imgZed = '<img class="imgCampeaoLargo" src="./assets/zed.png">';
 
 function exibir(imagem) {
     eFrame = document.getElementById("frame");

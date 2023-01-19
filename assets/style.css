@@ -29,7 +29,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center; 
-    gap: 7rem;   
+    gap: 2rem;
 }
 
 .corAmarela {
@@ -49,13 +49,30 @@ a {
 .nomes {
     display: flex;
     align-items: center;
-    flex-direction: center;
-    gap: 2rem;
+    flex-direction: column;
+    gap: 1.5rem;
     color: var(--purple);
 }
 
+.l1-nomes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.nomes p {
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    color: white;
+    border-radius: 2rem;
+}
+
 #frame {
-    height: 30rem;
+    height: 40rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,6 +84,12 @@ a {
     animation-duration: 0.5s;
 }
 
+.imgCampeaoLargo {
+    height: 70%;
+    animation-name: zoom;
+    animation-duration: 0.5s;
+}
+
 @keyframes zoom{
     from {
         transform: scale(0);
@@ -74,15 +97,6 @@ a {
     to {
         transform: scale(1);
     }
-}
-
-.nomes p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 7rem;
-    color: white;
-    border-radius: 2rem;
 }
 
 .funcoes {
