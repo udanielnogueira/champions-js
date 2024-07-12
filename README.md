@@ -1,6 +1,6 @@
 # champions-js
 
-Uma tela de seleção de campeões do League of Legends.
+Uma tela de seleção de Campeões do League of Legends.
 
 ## Acesse
 

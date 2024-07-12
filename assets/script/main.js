@@ -1,8 +1,8 @@
-var imgAshe = '<img class="imgCampeao" src="./assets/ashe.png">';
-var imgJinx = '<img class="imgCampeao" src="./assets/jinx.png">';
-var imgAhri = '<img class="imgCampeao" src="./assets/ahri.png">';
-var imgLux = '<img class="imgCampeao" src="./assets/lux.png">';
-var imgZed = '<img class="imgCampeaoLargo" src="./assets/zed.png">';
+var imgAshe = '<img class="imgCampeao" src="./assets/img/ashe.png">';
+var imgJinx = '<img class="imgCampeao" src="./assets/img/jinx.png">';
+var imgAhri = '<img class="imgCampeao" src="./assets/img/ahri.png">';
+var imgLux = '<img class="imgCampeao" src="./assets/img/lux.png">';
+var imgZed = '<img class="imgCampeaoLargo" src="./assets/img/zed.png">';
 
 function exibir(imagem) {
     eFrame = document.getElementById("frame");
